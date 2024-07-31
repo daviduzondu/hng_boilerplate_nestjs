@@ -287,7 +287,7 @@ export default class AuthenticationService {
       status_code: HttpStatus.OK,
       message: TWO_FACTOR_VERIFIED_SUCCESSFULLY,
       data: { backup_codes: backup_codes },
-    }
+    };
   }
 
   async googleAuth(googleAuthPayload: GoogleAuthPayload) {

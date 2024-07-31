@@ -13,7 +13,6 @@ import { ProductSizeType } from '../../modules/products/entities/product-variant
 
 import { Notification } from '../../modules/notifications/entities/notifications.entity';
 
-
 @Injectable()
 export class SeedingService {
   constructor(private readonly dataSource: DataSource) {}
